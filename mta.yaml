@@ -21,12 +21,12 @@ modules:
     content:
       instance:
         destinations:
-        - Name: com-mycompany-longapplicationname_html_repo_host
+        - Name: com-mycompany-longapplicationname-com-mycompany-longapplicationname_html_repo_host
           ServiceInstanceName: com-mycompany-longapplicationname-html5-srv
           ServiceKeyName: com-mycompany-longapplicationname-repo-host-key
           sap.cloud.service: com-mycompany-longapplicationname
         - Authentication: OAuth2UserTokenExchange
-          Name: com-mycompany-longapplicationname_uaa
+          Name: com-mycompany-longapplicationname-com-mycompany-longapplicationname_uaa
           ServiceInstanceName: com-mycompany-longapplicationname-xsuaa-srv
           ServiceKeyName: com-mycompany-longapplicationname-uaa-key
           sap.cloud.service: com-mycompany-longapplicationname
